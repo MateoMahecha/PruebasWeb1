@@ -18,7 +18,7 @@
     </head>
     <body>
         <h1>Hola Mundo!</h1>
-        <form action="Registro" method="post">
+        <form method="post" action="Registro" >
             <input  type="text" name="txt_nombre" placeholder="Digite nombre de usuario" required/>
             <input  type="email" name="txt_correo" placeholder="Digite su correo" required/>
             <input type="submit" name="btn_aceptar" value="Aceptar"/>
